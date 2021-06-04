@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Hora from './Componentes/Hora';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <p>hola mundo React</p>
+        <Hora/>
       </header>
     </div>
   );
